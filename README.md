@@ -103,14 +103,50 @@ Tech-Care-Your-Health-Partner/
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### 🏠 Home Page
 ![Home Page](assets/img/home.jpg)
 
-### 👨‍⚕️ Doctor Dashboard
-![Doctor Dashboard](assets/img/doctor_dashboard.jpg)
+### 📝 User Signup
+![User Signup](assets/img/usersignup.jpg)
 
-### 👥 Patient Dashboard
-![Patient Dashboard](assets/img/patient_dashboard.jpg)
+### 👥 User Dashboard
+![User Dashboard](assets/img/userdashboard.jpg)
+
+### 👨‍⚕️ Doctor Signup
+![Doctor Signup](assets/img/doctorsignup.jpg)
+
+### 👨‍⚕️ Doctor Dashboard
+![Doctor Dashboard](assets/img/doctordashboard.jpg)
+
+### 🔍 Find Doctor
+![Find Doctor](assets/img/finddoctor.jpg)
+
+### 🧪 Lab
+![Lab](assets/img/lab.jpg)
+
+### 🚑 Ambulance
+![Ambulance](assets/img/ambulance.jpg)
+
+### 📝 Ambulance Form
+![Ambulance Form](assets/img/ambulanceform.jpg)
+
+### 📧 Ambulance Mail Confirmation
+![Ambulance Mail Confirmation](assets/img/ambulance-mail-confirmation.jpg)
+
+### 🧾 Patient Request 2
+![Patient Request 2](assets/img/patientrequest2.jpg)
+
+### 🧾 Patient Request
+![Patient Request](assets/img/patientrequest.jpg)
+
+### ✅ Doctor Confirmation
+![Doctor Confirmation](assets/img/doctor-confirmation.jpg)
+
+### 📝 Lab Form
+![Lab Form](assets/img/labform.jpg)
+
 
 ---
 

@@ -162,8 +162,4 @@ Tech-Care-Your-Health-Partner/
 ### Local Development
 1. Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/Tech-Care-Your-Health-Partner.git
-
-
-## 📁 Project Structure
-
+git clone https://github.com/https://github.com/Kuldip8975/Tech-Care-Your-Health-Partner.git

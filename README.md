@@ -159,7 +159,3 @@ Tech-Care-Your-Health-Partner/
 - MySQL 5.7+  
 - Composer (for PHPMailer)
 
-### Local Development
-1. Clone this repository:
-```bash
-git clone https://github.com/https://github.com/Kuldip8975/Tech-Care-Your-Health-Partner.git

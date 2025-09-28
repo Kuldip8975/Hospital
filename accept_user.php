@@ -26,7 +26,7 @@ if (isset($_GET['aid'])) {
 
         // Update the status of the user request to "accepted" in the database
         $updateQuery = "UPDATE user_request SET status = 'Accepted' WHERE id = $aid";
-        $updateResult = mysqli_query($con, $updateQuery);
+        $updateResult = mysqli_query($conn, $updateQuery);
 
         if ($updateResult) {
             // Send email to the user using PHPMailer

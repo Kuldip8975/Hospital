@@ -1,3 +1,30 @@
+<?php
+include 'connection/connection.php';
+if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    $findUser = "select * from user where email='$username' and pass='$password'";
+    $result = mysqli_query($conn, $findUser);
+    $num = mysqli_num_rows($result);
+    if ($num) {
+        $userEmail = $username;
+        setcookie('user_email', $userEmail, time() + (86400 * 7), '/');
+        //redirect to home page
+        ?>
+        <script>
+            alert('User Logged In Successfully');
+            // redirect to sign in page
+            window.location.href = 'userdashboard.php';
+        </script><?php
+    } else {
+        ?>
+        <script>alert('Incorrect Credentials');</script>
+        <?php
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -207,29 +234,3 @@
 </body>
 
 </html>
-<?php
-include 'connection/connection.php';
-if (isset($_POST['submit'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    $findUser = "select * from user where email='$username' and pass='$password'";
-    $result = mysqli_query($conn, $findUser);
-    $num = mysqli_num_rows($result);
-    if ($num) {
-        $userEmail = $username;
-        setcookie('user_email', $userEmail, time() + (86400 * 7), '/');
-        //redirect to home page
-        ?>
-        <script>
-            alert('User Logged In Successfully');
-            // redirect to sign in page
-            window.location.href = 'userdashboard.php';
-        </script><?php
-    } else {
-        ?>
-        <script>alert('Incorrect Credentials');</script>
-        <?php
-    }
-}
-?>
